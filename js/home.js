@@ -29,13 +29,13 @@ document.addEventListener('DOMContentLoaded', function () {
     if(localStorage.getItem('darkMode') === 'enabled'){
         document.body.classList.add('dark-mode');
         themeToggle.checked = true;
-        background.style.backgroundImage = 'url(/img/wallpaper/night-fairycore-forest-desktop-wallpaper.jpg)';
+        background.style.backgroundImage = 'url(img/wallpaper/night-fairycore-forest-desktop-wallpaper.jpg)';
         title.style.color = 'wheat';
         title.style.textShadow = '1.5px 1.5px 5px black';
         document.getElementById('name').style.borderRight = '2px solid white';
         document.getElementById('fb').style.color = 'white';
     } else {
-        background.style.backgroundImage = 'url(/img/wallpaper/sunset_minimal_landscape_4k.jpg)';
+        background.style.backgroundImage = 'url(img/wallpaper/sunset_minimal_landscape_4k.jpg)';
         title.style.textShadow = '1.5px 1.5px 5px aquamarine';
         title.style.color = 'white';
         document.getElementById('name').style.borderRight = '2px solid black';
@@ -48,14 +48,14 @@ document.addEventListener('DOMContentLoaded', function () {
         // Save theme state to localStorage
         if (themeToggle.checked) {
             localStorage.setItem('darkMode', 'enabled');
-            background.style.backgroundImage = 'url(/img/wallpaper/night-fairycore-forest-desktop-wallpaper.jpg)';
+            background.style.backgroundImage = 'url(img/wallpaper/night-fairycore-forest-desktop-wallpaper.jpg)';
             title.style.textShadow = '1.5px 1.5px 5px black';
             title.style.color = 'wheat';
             document.getElementById('name').style.borderRight = '2px solid white';
             document.getElementById('fb').style.color = 'white';
         } else {
             localStorage.setItem('darkMode', 'disabled');
-            background.style.backgroundImage = 'url(/img/wallpaper/sunset_minimal_landscape_4k.jpg)';
+            background.style.backgroundImage = 'url(img/wallpaper/sunset_minimal_landscape_4k.jpg)';
             title.style.textShadow = '1.5px 1.5px 5px aquamarine';
             title.style.color = 'white';
             document.getElementById('name').style.borderRight = '2px solid black';
