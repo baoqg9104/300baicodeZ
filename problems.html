@@ -98,38 +98,360 @@
         </div>
 
         <div class="row m-0">
-            <div class="col-8 pt-1 pb-1" style="font-size: 20px; border: 1px solid rgb(77, 77, 77);">
+            <div class="col col-lg-8 pt-1 pb-1" style="font-size: 20px; border: 1px solid rgb(77, 77, 77);">
                 <b>TỔNG QUAN</b>
             </div>
         </div>
 
         <div class="row flex-column flex-lg-row m-0" style="font-size: 17px;">
-            <div class="col-lg-3 col-8 border-top-0 pt-2 d-flex flex-row flex-lg-column" style="border: 1px solid rgb(77, 77, 77);">
+            <div class="col-lg-3 col border-top-0 pt-2 d-flex flex-row flex-lg-column" style="border: 1px solid rgb(77, 77, 77);">
                 <p class="fw-semibold mb-2">LÀM ĐỂ ĐƯỢC GÌ?</p>
 
                 <p class="ms-5 ms-lg-0 me-0" style="font-size: 15px; text-align: justify;">Khai phá tri thức, thức tỉnh Chân-Thiện-Mỹ. Giải 300 bài code thiếu nhi giống như luyện bí kíp võ công, không có duyên thì chỉ là tờ giấy trắng, người hữu duyên mới thấy được hết cái tinh túy trong này.</p>
             </div>
-            <div id="difficult" class="col-lg-2 col-8 pt-2 d-flex flex-row flex-lg-column">
+            <div id="difficult" class="col-lg-2 col pt-2 d-flex flex-row flex-lg-column">
                 <p class="fw-semibold mb-2">ĐỘ KHÓ</p>
                 
-                <div class="d-flex flex-row justify-content-lg-between ms-lg-0 ms-5">
-                    <p class="fw-bold" style="color: rgb(80, 217, 183);">Dễ: 0</p>
+                <div id="level-list" class="d-flex flex-row justify-content-lg-between ms-lg-0 ms-5">
+                    <!-- <p class="fw-bold text-easy">Dễ: 0</p>
                     <p class="text-warning fw-bold ms-lg-0 ms-4">Vừa: 0</p>
-                    <p class="text-danger fw-bold ms-lg-0 ms-4">Khó: 0</p>
+                    <p class="text-danger fw-bold ms-lg-0 ms-4">Khó: 0</p> -->
                 </div>
 
             </div>
-            <div id="topic" class="col-lg-3 col-8 pb-4">
+            <div id="topic" class="col-lg-3 col pb-4">
                 <p class="fw-semibold mb-2 pt-2">CHỦ ĐỀ</p>
                 
-                <div class="d-flex flex-wrap">
-                    <span class="rounded-5 fw-semibold" style="background-color: rgba(128, 128, 128, 0.3); font-size: 15px; padding: 3px 10px; margin: 3px;">Array : 0</span>
+                <div id="topic-list" class="d-flex flex-wrap">
+                    <!-- <span class="rounded-5 fw-semibold" style="background-color: rgba(128, 128, 128, 0.3); font-size: 15px; padding: 3px 10px; margin: 3px;">Array : 0</span>
                     <span class="rounded-5 fw-semibold" style="background-color: rgba(128, 128, 128, 0.3); font-size: 15px; padding: 3px 10px; margin: 3px;">String : 0</span>
-                    <span class="rounded-5 fw-semibold" style="background-color: rgba(128, 128, 128, 0.3); font-size: 15px; padding: 3px 10px; margin: 3px;">Math : 0</span>
+                    <span class="rounded-5 fw-semibold" style="background-color: rgba(128, 128, 128, 0.3); font-size: 15px; padding: 3px 10px; margin: 3px;">Math : 0</span> -->
                 </div>
             </div>
 
         </div>
+
+        <div class="row m-0 mt-2 mb-5">
+            <div class="col-lg-8 col border-problem p-0">
+                <div class="d-flex align-items-center p-lg-0 p-3">
+                    <div class="m-2 ms-3 me-3 fs-22 fw-semibold opacity-75">
+                        1
+                    </div>
+                    
+                    <div class="ms-lg-0 ms-3 d-flex flex-column flex-grow-1">
+                        <div class="fw-semibold fs-18" style="margin-left: 2px;">
+                            <a href="https://leetcode.com/problems/two-sum/description/" style="text-decoration: none;" target="_blank">Two Sum</a>
+                        </div>
+
+                        <div class="fw-semibold text-easy fs-15" style="margin-left: 2px;">
+                            Dễ
+                        </div>
+                    </div> 
+                    
+                    <div class="d-flex me-1 flex-wrap">
+                        <div class="fs-15 fw-semibold rounded-5 topic-problem">
+                            Array
+                        </div>
+
+                        <div class="fs-15 fw-semibold rounded-5 topic-problem">
+                            Hash Table
+                        </div>
+                    </div>
+                </div>
+
+                <div class="border-problem_list d-flex align-items-center p-lg-0 p-3">
+                    <div class="m-2 ms-3 me-3 fs-22 fw-semibold opacity-75">
+                        2
+                    </div>
+                    
+                    <div class="ms-lg-0 ms-3 d-flex flex-column flex-grow-1">
+                        <div class="fw-semibold fs-18">
+                            <a href="https://leetcode.com/problems/palindrome-number/description/" style="text-decoration: none;" target="_blank">Palindrome Number</a>
+                        </div>
+
+                        <div class="fw-semibold text-easy fs-15">
+                            Dễ
+                        </div>
+                    </div> 
+                    
+                    <div class="d-flex me-1 flex-wrap">
+                        <div class="fs-15 fw-semibold rounded-5 topic-problem">
+                            Math
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="border-problem_list d-flex align-items-center p-lg-0 p-3">
+                    <div class="m-2 ms-3 me-3 fs-22 fw-semibold opacity-75">
+                        3
+                    </div>
+                    
+                    <div class="ms-lg-0 ms-3 d-flex flex-column flex-grow-1">
+                        <div class="fw-semibold fs-18">
+                            <a href="https://leetcode.com/problems/roman-to-integer/description/" style="text-decoration: none;" target="_blank">Roman to Integer</a>
+                        </div>
+
+                        <div class="fw-semibold text-easy fs-15">
+                            Dễ
+                        </div>
+                    </div> 
+                    
+                    <div class="d-flex me-1 flex-wrap">
+                        <div class="fs-15 fw-semibold rounded-5 topic-problem">
+                            Math
+                        </div>
+
+                        <div class="fs-15 fw-semibold rounded-5 topic-problem">
+                            String
+                        </div>
+
+                        <div class="fs-15 fw-semibold rounded-5 topic-problem">
+                            Hash Table
+                        </div>
+                    </div>
+                </div>
+
+                <div class="border-problem_list d-flex align-items-center p-lg-0 p-3">
+                    <div class="m-2 ms-3 me-3 fs-22 fw-semibold opacity-75">
+                        4
+                    </div>
+                    
+                    <div class="ms-lg-0 ms-3 d-flex flex-column flex-grow-1">
+                        <div class="fw-semibold fs-18">
+                            <a href="https://leetcode.com/problems/longest-common-prefix/description/" style="text-decoration: none;" target="_blank">
+                                Longest Common Prefix
+                            </a>
+                            
+                        </div>
+
+                        <div class="fw-semibold text-easy fs-15">
+                            Dễ
+                        </div>
+                    </div> 
+                    
+                    <div class="d-flex me-1 flex-wrap">
+                        <div class="fs-15 fw-semibold rounded-5 topic-problem">
+                            String
+                        </div>
+
+                        <div class="fs-15 fw-semibold rounded-5 topic-problem">
+                            Trie
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="border-problem_list d-flex align-items-center p-lg-0 p-3">
+                    <div class="m-2 ms-3 me-3 fs-22 fw-semibold opacity-75">
+                        5
+                    </div>
+                    
+                    <div class="ms-lg-0 ms-3 d-flex flex-column flex-grow-1">
+                        <div class="fw-semibold fs-18">
+                            <a href="https://leetcode.com/problems/valid-parentheses/description/" style="text-decoration: none;" target="_blank">
+                                Valid Parentheses
+                            </a>
+                        </div>
+
+                        <div class="fw-semibold text-easy fs-15">
+                            Dễ
+                        </div>
+                    </div> 
+                    
+                    <div class="d-flex me-1 flex-wrap">
+                        <div class="fs-15 fw-semibold rounded-5 topic-problem">
+                            String
+                        </div>
+
+                        <div class="fs-15 fw-semibold rounded-5 topic-problem">
+                            Stack
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="border-problem_list d-flex align-items-center p-lg-0 p-3">
+                    <div class="m-2 ms-3 me-3 fs-22 fw-semibold opacity-75">
+                        6
+                    </div>
+                    
+                    <div class="ms-lg-0 ms-3 d-flex flex-column flex-grow-1">
+                        <div class="fw-semibold fs-18">
+                            <a href="https://leetcode.com/problems/merge-two-sorted-lists/description/" style="text-decoration: none;" target="_blank">
+                                Merge Two Sorted Lists
+                            </a>
+                        </div>
+
+                        <div class="fw-semibold text-easy fs-15">
+                            Dễ
+                        </div>
+                    </div> 
+                    
+                    <div class="d-flex me-1 flex-wrap">
+                        <div class="fs-15 fw-semibold rounded-5 topic-problem">
+                            Linked List
+                        </div>
+
+                        <div class="fs-15 fw-semibold rounded-5 topic-problem">
+                            Recursion
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="border-problem_list d-flex align-items-center p-lg-0 p-3">
+                    <div class="m-2 ms-3 me-3 fs-22 fw-semibold opacity-75">
+                        7
+                    </div>
+                    
+                    <div class="ms-lg-0 ms-3 d-flex flex-column flex-grow-1">
+                        <div class="fw-semibold fs-18">
+                            <a href="https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/" style="text-decoration: none;" target="_blank">
+                                Remove Duplicates from Sorted Array
+                            </a>
+                        </div>
+
+                        <div class="fw-semibold text-easy fs-15">
+                            Dễ
+                        </div>
+                    </div> 
+                    
+                    <div class="d-flex me-1 flex-wrap">
+                        <div class="fs-15 fw-semibold rounded-5 topic-problem">
+                            Array
+                        </div>
+
+                        <div class="fs-15 fw-semibold rounded-5 topic-problem">
+                            Two Pointers
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="border-problem_list d-flex align-items-center p-lg-0 p-3">
+                    <div class="m-2 ms-3 me-3 fs-22 fw-semibold opacity-75">
+                        8
+                    </div>
+                    
+                    <div class="ms-lg-0 ms-3 d-flex flex-column flex-grow-1">
+                        <div class="fw-semibold fs-18">
+                            <a href="https://leetcode.com/problems/remove-element/description/" style="text-decoration: none;" target="_blank">
+                                Remove Element
+                            </a>
+                        </div>
+
+                        <div class="fw-semibold text-easy fs-15">
+                            Dễ
+                        </div>
+                    </div> 
+                    
+                    <div class="d-flex me-1 flex-wrap">
+                        <div class="fs-15 fw-semibold rounded-5 topic-problem">
+                            Array
+                        </div>
+
+                        <div class="fs-15 fw-semibold rounded-5 topic-problem">
+                            Two Pointers
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="border-problem_list d-flex align-items-center p-lg-0 p-3">
+                    <div class="m-2 ms-3 me-3 fs-22 fw-semibold opacity-75">
+                        9
+                    </div>
+                    
+                    <div class="ms-lg-0 ms-3 d-flex flex-column flex-grow-1">
+                        <div class="fw-semibold fs-18">
+                            <a href="https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/description/" style="text-decoration: none;" target="_blank">
+                                Find the Index of the First Occurrence in a String
+
+                            </a>
+                        </div>
+
+                        <div class="fw-semibold text-easy fs-15">
+                            Dễ
+                        </div>
+                    </div> 
+                    
+                    <div class="d-flex me-1 flex-wrap">
+                        <div class="fs-15 fw-semibold rounded-5 topic-problem">
+                            Two Pointers
+                        </div>
+
+                        <div class="fs-15 fw-semibold rounded-5 topic-problem">
+                            String
+                        </div>
+
+                        <div class="fs-15 fw-semibold rounded-5 topic-problem">
+                            String Matching
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="border-problem_list d-flex align-items-center p-lg-0 p-3">
+                    <div class="m-2 ms-3 me-3 fs-22 fw-semibold opacity-75">
+                        10
+                    </div>
+                    
+                    <div class="ms-lg-0 ms-3 d-flex flex-column flex-grow-1">
+                        <div class="fw-semibold fs-18">
+                            <a href="https://leetcode.com/problems/search-insert-position/description/" style="text-decoration: none;" target="_blank">
+                                Search Insert Position
+                            </a>
+                        </div>
+
+                        <div class="fw-semibold text-easy fs-15">
+                            Dễ
+                        </div>
+                    </div> 
+                    
+                    <div class="d-flex me-1 flex-wrap">
+                        <div class="fs-15 fw-semibold rounded-5 topic-problem">
+                            Array
+                        </div>
+
+                        <div class="fs-15 fw-semibold rounded-5 topic-problem">
+                            Binary Search
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="border-problem_list d-flex align-items-center p-lg-0 p-3">
+                    <div class="m-2 ms-3 me-3 fs-22 fw-semibold opacity-75">
+                        11
+                    </div>
+                    
+                    <div class="ms-lg-0 ms-3 d-flex flex-column flex-grow-1">
+                        <div class="fw-semibold fs-18">
+                            <a href="https://leetcode.com/problems/length-of-last-word/description/" style="text-decoration: none;" target="_blank">
+                                Length of Last Word
+                            </a>
+                        </div>
+
+                        <div class="fw-semibold text-easy fs-15">
+                            Dễ
+                        </div>
+                    </div> 
+                    
+                    <div class="d-flex me-1 flex-wrap">
+                        <div class="fs-15 fw-semibold rounded-5 topic-problem">
+                            String
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
     </div>
 
     

@@ -414,4 +414,33 @@ a:hover {
     }
 }
 
+.border-problem {
+    border: 1px solid rgb(77,77,77);
+}
 
+.text-easy {
+    color: rgb(80, 217, 183);
+    filter: contrast();
+}
+
+.fs-22 {
+    font-size: 22px;
+}
+
+.fs-18 {
+    font-size: 18px;
+}
+
+.fs-15 {
+    font-size: 15px;
+}
+
+.border-problem_list {
+    border-top: 1px solid rgb(77, 77, 77);
+}
+
+.topic-problem {
+    padding: 3px 10px;
+     margin: 3px;
+    background-color: rgba(128, 128, 128, 0.3);
+}
