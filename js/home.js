@@ -32,14 +32,14 @@ document.addEventListener('DOMContentLoaded', function () {
         background.style.backgroundImage = 'url(img/wallpaper/night-fairycore-forest-desktop-wallpaper.jpg)';
         title.style.color = 'wheat';
         title.style.textShadow = '1.5px 1.5px 5px black';
-        document.getElementById('name').style.borderRight = '2px solid white';
-        document.getElementById('fb').style.color = 'white';
+        // document.getElementById('name').style.borderRight = '2px solid white';
+        // document.getElementById('fb').style.color = 'white';
     } else {
         background.style.backgroundImage = 'url(img/wallpaper/sunset_minimal_landscape_4k.jpg)';
         title.style.textShadow = '1.5px 1.5px 5px aquamarine';
         title.style.color = 'white';
-        document.getElementById('name').style.borderRight = '2px solid black';
-        document.getElementById('fb').style.color = 'black';
+        // document.getElementById('name').style.borderRight = '2px solid black';
+        // document.getElementById('fb').style.color = 'black';
     }
 
     themeToggle.addEventListener('click', function () {
@@ -51,25 +51,25 @@ document.addEventListener('DOMContentLoaded', function () {
             background.style.backgroundImage = 'url(img/wallpaper/night-fairycore-forest-desktop-wallpaper.jpg)';
             title.style.textShadow = '1.5px 1.5px 5px black';
             title.style.color = 'wheat';
-            document.getElementById('name').style.borderRight = '2px solid white';
-            document.getElementById('fb').style.color = 'white';
+            // document.getElementById('name').style.borderRight = '2px solid white';
+            // document.getElementById('fb').style.color = 'white';
         } else {
             localStorage.setItem('darkMode', 'disabled');
             background.style.backgroundImage = 'url(img/wallpaper/sunset_minimal_landscape_4k.jpg)';
             title.style.textShadow = '1.5px 1.5px 5px aquamarine';
             title.style.color = 'white';
-            document.getElementById('name').style.borderRight = '2px solid black';
-            document.getElementById('fb').style.color = 'black';
+            // document.getElementById('name').style.borderRight = '2px solid black';
+            // document.getElementById('fb').style.color = 'black';
         }
 
     });
 });
 
 
-document.getElementById('scroll').addEventListener('click', function() {
-    scrollDownSlowly();
+// document.getElementById('scroll').addEventListener('click', function() {
+//     scrollDownSlowly();
 
-});
+// });
 
 function scrollDownSlowly() {
     let targetElement = document.getElementById('introduction'); // Chọn phần tử mà bạn muốn cuộn đến
